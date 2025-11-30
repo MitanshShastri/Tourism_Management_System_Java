@@ -1,3 +1,14 @@
+/*Write a Java program to create a class Fan with data members: speed, on/off status, radius, and color.
+Use three constants SLOW = 1, MEDIUM = 2, and FAST = 3 to represent fan speed.
+Add two methods:
+
+setDefault() — to assign default values to a fan.
+
+setUserDefined(int speed, boolean on, double radius, String color) — to assign user-defined values.
+
+Display() — to display fan details.
+
+Create two Fan objects in the main method: one with default values, and one with user-defined values. Display the details of both fans.”*/
 import java.util.Scanner;
 class Fan
 {
@@ -49,4 +60,5 @@ class Main
 		System.out.println("Userdefined Fan details:-");
 		f2.Display();
 	}
+
 }
